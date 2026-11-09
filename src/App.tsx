@@ -25,8 +25,8 @@ function useBank() {
   const [error, setError] = useState('')
   useEffect(() => {
     Promise.all([
-      fetch('/Week5_Week6_MCQs.json'),
-      fetch('/Week5_Week6_MCQs_ar.json'),
+      fetch(`${import.meta.env.BASE_URL}Week5_Week6_MCQs.json`),
+      fetch(`${import.meta.env.BASE_URL}Week5_Week6_MCQs_ar.json`),
     ]).then(async ([questionsResponse, translationsResponse]) => {
       if (!questionsResponse.ok || !translationsResponse.ok) throw new Error('تعذر تحميل بنك الأسئلة والترجمات')
       const questions = await questionsResponse.json() as Omit<Bank, 'translations'>
