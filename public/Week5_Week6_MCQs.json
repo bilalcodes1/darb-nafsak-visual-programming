@@ -1,0 +1,1808 @@
+{
+  "schemaVersion": "1.0",
+  "title": "Visual Programming C# - Week 5 & Week 6 MCQ Bank",
+  "source": "Week 5 and Week 6 lecture slides by Dr. Saad Adnan",
+  "questionCount": 120,
+  "questions": [
+    {
+      "id": "W5-001",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 4,
+      "question": "Who normally decides the order of operations in the lecture’s traditional Console example?",
+      "options": [
+        "The program",
+        "The mouse",
+        "WPF",
+        "The button"
+      ],
+      "correctIndex": 0,
+      "explanation": "Console follows the order of statements."
+    },
+    {
+      "id": "W5-002",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 4,
+      "question": "In a GUI control-panel example, who chooses whether Add, Edit, or Delete happens first?",
+      "options": [
+        "The compiler",
+        "The user",
+        "The CLR",
+        "The timer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The user chooses the next action."
+    },
+    {
+      "id": "W5-003",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 5,
+      "question": "In the comparison slide, GUI input can be read:",
+      "options": [
+        "Only after Main ends",
+        "At fixed ReadLine points",
+        "At any time from multiple controls",
+        "Only from keyboard"
+      ],
+      "correctIndex": 2,
+      "explanation": "Controls can receive user input at different times."
+    },
+    {
+      "id": "W5-004",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 5,
+      "question": "Which is the typical Console output described in the comparison?",
+      "options": [
+        "Text, line after line",
+        "Only graphics",
+        "Only buttons",
+        "Only audio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Console output is presented as text lines in the lecture."
+    },
+    {
+      "id": "W5-005",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 6,
+      "question": "Which call reads a line of input in C# Console?",
+      "options": [
+        "Console.Write()",
+        "Console.ReadLine()",
+        "MessageBox.Show()",
+        "button.Click()"
+      ],
+      "correctIndex": 1,
+      "explanation": "ReadLine reads the user-entered line."
+    },
+    {
+      "id": "W5-006",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 6,
+      "question": "What does int.Parse(Console.ReadLine()) try to produce?",
+      "options": [
+        "A Button",
+        "A string[]",
+        "An integer",
+        "A WPF window"
+      ],
+      "correctIndex": 2,
+      "explanation": "int.Parse converts the entered numeric text to int."
+    },
+    {
+      "id": "W5-007",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 7,
+      "question": "Inversion of Control in the WPF example means:",
+      "options": [
+        "The framework calls your registered handlers",
+        "Handlers always run at startup",
+        "The user writes C#",
+        "The compiler sends clicks"
+      ],
+      "correctIndex": 0,
+      "explanation": "WPF decides when to call the handler."
+    },
+    {
+      "id": "W5-008",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 7,
+      "question": "What does button.Click += OnClick do?",
+      "options": [
+        "Call OnClick immediately",
+        "Register OnClick for the Click event",
+        "Delete the button",
+        "Create the Click property"
+      ],
+      "correctIndex": 1,
+      "explanation": "+= subscribes the method; it does not call it."
+    },
+    {
+      "id": "W5-009",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "Which of the following is a control PROPERTY?",
+      "options": [
+        "Clear()",
+        "Click",
+        "Width",
+        "Focus()"
+      ],
+      "correctIndex": 2,
+      "explanation": "Width describes a control property."
+    },
+    {
+      "id": "W5-010",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "Which of the following is a control METHOD?",
+      "options": [
+        "TextChanged",
+        "Clear()",
+        "Content",
+        "Click"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clear() is an action a control can perform."
+    },
+    {
+      "id": "W5-011",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "Which of the following is an EVENT?",
+      "options": [
+        "Width",
+        "Content",
+        "Text",
+        "TextChanged"
+      ],
+      "correctIndex": 3,
+      "explanation": "TextChanged indicates something happened."
+    },
+    {
+      "id": "W5-012",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "What does XAML / designer mainly define in this lecture?",
+      "options": [
+        "Appearance",
+        "Network packets",
+        "Database tables",
+        "CPU instructions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Appearance is assigned to XAML / designer."
+    },
+    {
+      "id": "W5-013",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 9,
+      "question": "What does the dictionary key \"add\" represent in the mini event loop?",
+      "options": [
+        "An integer",
+        "An input command",
+        "A UI window",
+        "An OS message"
+      ],
+      "correctIndex": 1,
+      "explanation": "The key identifies the command to handle."
+    },
+    {
+      "id": "W5-014",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 9,
+      "question": "What construct repeats the Console event-loop demo?",
+      "options": [
+        "switch(false)",
+        "if(false)",
+        "while(true)",
+        "return"
+      ],
+      "correctIndex": 2,
+      "explanation": "The while loop keeps accepting commands until break."
+    },
+    {
+      "id": "W5-015",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 10,
+      "question": "In a real WPF GUI, who runs the event loop?",
+      "options": [
+        "The WPF framework",
+        "Every TextBox separately",
+        "A user-written Console.ReadLine",
+        "A delegate variable alone"
+      ],
+      "correctIndex": 0,
+      "explanation": "WPF manages the event loop."
+    },
+    {
+      "id": "W5-016",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 12,
+      "question": "What is an Event Handler?",
+      "options": [
+        "The object raising an event",
+        "The code responding to an event",
+        "The event’s timestamp only",
+        "The keyboard hardware"
+      ],
+      "correctIndex": 1,
+      "explanation": "A handler executes when its subscribed event occurs."
+    },
+    {
+      "id": "W5-017",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 12,
+      "question": "What is an Event Source?",
+      "options": [
+        "The code after return",
+        "A variable holding age",
+        "The object where an event occurs",
+        "The UI thread"
+      ],
+      "correctIndex": 2,
+      "explanation": "The clicked Calculate button is the source."
+    },
+    {
+      "id": "W5-018",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 13,
+      "question": "In the doorbell analogy, pressing the bell corresponds to:",
+      "options": [
+        "Raising the event",
+        "Calling TryParse",
+        "Closing Main",
+        "Loading XAML"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pressing the bell is event occurrence."
+    },
+    {
+      "id": "W5-019",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 15,
+      "question": "Which is a user-input event?",
+      "options": [
+        "Loaded",
+        "KeyDown",
+        "Closing",
+        "Tick"
+      ],
+      "correctIndex": 1,
+      "explanation": "KeyDown comes from user input."
+    },
+    {
+      "id": "W5-020",
+      "week": 5,
+      "difficulty": "easy",
+      "slide": 18,
+      "question": "Which method is recommended for checking text before integer conversion?",
+      "options": [
+        "int.TryParse",
+        "MessageBox.Show",
+        "Focus",
+        "Console.Write"
+      ],
+      "correctIndex": 0,
+      "explanation": "TryParse validates numeric text without throwing for bad format."
+    },
+    {
+      "id": "W5-021",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 5,
+      "question": "Which pairing matches the slide’s program lifetime comparison?",
+      "options": [
+        "Console until window closes; GUI until Main ends",
+        "Both end on first click",
+        "Console when Main ends; GUI usually until closed",
+        "Both are infinite"
+      ],
+      "correctIndex": 2,
+      "explanation": "These are the lecture’s typical lifetime cases."
+    },
+    {
+      "id": "W5-022",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 5,
+      "question": "Which GUI response to invalid input is listed on the comparison slide?",
+      "options": [
+        "Only crash",
+        "Block, warn, or ignore per control",
+        "Always rerun Main",
+        "Disable all events permanently"
+      ],
+      "correctIndex": 1,
+      "explanation": "GUI can block, warn, or ignore by control."
+    },
+    {
+      "id": "W5-023",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 6,
+      "question": "A user typed a wrong name and already entered age. What is required in a simple Console flow to edit name?",
+      "options": [
+        "A WPF Dispatcher",
+        "Only change Write to WriteLine",
+        "Extra code to revisit input",
+        "Nothing, it edits automatically"
+      ],
+      "correctIndex": 2,
+      "explanation": "Going back requires extra Console logic."
+    },
+    {
+      "id": "W5-024",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 6,
+      "question": "If name is \"Ali\" and age is 20, what does $\"{name} is {age}\" represent?",
+      "options": [
+        "Ali is 20",
+        "{name} is {age}",
+        "name is age",
+        "20 is Ali"
+      ],
+      "correctIndex": 0,
+      "explanation": "String interpolation substitutes the variable values."
+    },
+    {
+      "id": "W5-025",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 7,
+      "question": "Which description is accurate for Click += OnClick?",
+      "options": [
+        "OnClick is invoked at registration",
+        "The event is unsubscribed",
+        "The handler is registered for a later click",
+        "The button is removed"
+      ],
+      "correctIndex": 2,
+      "explanation": "The subscription executes later on event raise."
+    },
+    {
+      "id": "W5-026",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 8,
+      "question": "Which accurately describes the UI object tree?",
+      "options": [
+        "Button contains the OS",
+        "Window contains panels that contain controls",
+        "Every control contains Main",
+        "The UI is one string"
+      ],
+      "correctIndex": 1,
+      "explanation": "Window > panel > controls is the shown structure."
+    },
+    {
+      "id": "W5-027",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "In Dictionary<string, Action>, what is stored as the VALUE?",
+      "options": [
+        "A string command",
+        "An integer index",
+        "An Action referring to an operation",
+        "A WPF image"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Action is the handler-like operation."
+    },
+    {
+      "id": "W5-028",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "What does the lambda () => Console.WriteLine(\"Add clicked\") specify?",
+      "options": [
+        "A function taking zero arguments",
+        "A constructor with one parameter",
+        "A string variable",
+        "An event class"
+      ],
+      "correctIndex": 0,
+      "explanation": "The empty parentheses mean no parameters."
+    },
+    {
+      "id": "W5-029",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "What does TryGetValue(name, out Action? handler) do when key exists?",
+      "options": [
+        "Runs Main again",
+        "Returns true and supplies matching Action",
+        "Throws on every lookup",
+        "Closes app"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lookup retrieves the action; calling happens separately."
+    },
+    {
+      "id": "W5-030",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "If the user enters \"delete\" without registration, the demo prints:",
+      "options": [
+        "Delete clicked",
+        "Saved!",
+        "No handler registered",
+        "Clicked 3 times"
+      ],
+      "correctIndex": 2,
+      "explanation": "Only add and clear are registered."
+    },
+    {
+      "id": "W5-031",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "Which statement ends the mini Console loop on \"quit\"?",
+      "options": [
+        "continue",
+        "return true",
+        "handler()",
+        "break"
+      ],
+      "correctIndex": 3,
+      "explanation": "break exits the while loop."
+    },
+    {
+      "id": "W5-032",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 10,
+      "question": "What does handler() in the Console demo correspond to in GUI?",
+      "options": [
+        "The framework calling your handler",
+        "Defining a TextBox property",
+        "WPF loading a font",
+        "The OS rebooting"
+      ],
+      "correctIndex": 0,
+      "explanation": "It illustrates dispatch to handler code."
+    },
+    {
+      "id": "W5-033",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 12,
+      "question": "Which term means linking a handler to an event?",
+      "options": [
+        "Event data",
+        "Subscription",
+        "Event source",
+        "Property"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subscription registers a response."
+    },
+    {
+      "id": "W5-034",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 12,
+      "question": "Which term describes WHICH key was pressed?",
+      "options": [
+        "Event data",
+        "Event loop",
+        "Event handler",
+        "Window lifetime"
+      ],
+      "correctIndex": 0,
+      "explanation": "Key details are event data."
+    },
+    {
+      "id": "W5-035",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 13,
+      "question": "Which analogy element represents event source?",
+      "options": [
+        "The one who opens the door",
+        "The person listening",
+        "The doorbell button",
+        "The door itself after opening"
+      ],
+      "correctIndex": 2,
+      "explanation": "The button is the origin of the ring."
+    },
+    {
+      "id": "W5-036",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 14,
+      "question": "What happens immediately after Windows receives the click in the lecture’s journey?",
+      "options": [
+        "Your handler runs",
+        "Message goes to application queue",
+        "UI is updated",
+        "Main returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "The message is placed in the application’s queue."
+    },
+    {
+      "id": "W5-037",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 15,
+      "question": "Which is a window/lifecycle event?",
+      "options": [
+        "TextChanged",
+        "MouseMove",
+        "SelectionChanged",
+        "Closing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Closing belongs to window lifecycle."
+    },
+    {
+      "id": "W5-038",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 17,
+      "question": "In the login example, Enter (KeyDown) on the window is intended to:",
+      "options": [
+        "Close app silently",
+        "Behave as if Login was clicked",
+        "Disable password box",
+        "Start a timer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enter activates login behavior in the slide."
+    },
+    {
+      "id": "W5-039",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 17,
+      "question": "Which event is used to focus the username box on form startup?",
+      "options": [
+        "Loaded",
+        "Click",
+        "Closing",
+        "Tick"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loaded triggers initialization in the login example."
+    },
+    {
+      "id": "W5-040",
+      "week": 5,
+      "difficulty": "medium",
+      "slide": 18,
+      "question": "Why keep event handlers short according to the slides?",
+      "options": [
+        "Long code does not compile",
+        "Only one control can exist",
+        "Slow handlers freeze UI thread",
+        "Dictionary cannot store methods"
+      ],
+      "correctIndex": 2,
+      "explanation": "A slow handler blocks UI response."
+    },
+    {
+      "id": "W5-041",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 7,
+      "question": "Which is TRUE about registering an event handler?",
+      "options": [
+        "+= always invokes the method immediately",
+        "Registration and invocation are different operations",
+        "Registration must happen after every click",
+        "Only the compiler can subscribe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Registering says what should execute when the event occurs."
+    },
+    {
+      "id": "W5-042",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "Assume the user enters: add, clear, quit. How many times is a registered Action invoked?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2,
+      "explanation": "add and clear invoke Actions; quit breaks before lookup."
+    },
+    {
+      "id": "W5-043",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "Assume input is \"ADD\" while the registered key is \"add\". With default Dictionary<string, Action> comparison, what happens?",
+      "options": [
+        "The add handler executes",
+        "The clear handler executes",
+        "No handler registered",
+        "The app always crashes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Default string key comparison is case-sensitive."
+    },
+    {
+      "id": "W5-044",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "Which operation actually EXECUTES the retrieved Action?",
+      "options": [
+        "handlers.TryGetValue(...)",
+        "handler()",
+        "handlers[\"add\"] = ...",
+        "Console.ReadLine()"
+      ],
+      "correctIndex": 1,
+      "explanation": "TryGetValue retrieves; handler() invokes."
+    },
+    {
+      "id": "W5-045",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "Which line would ADD a new recognized \"delete\" command using the same pattern?",
+      "options": [
+        "handlers[\"delete\"] = () => Console.WriteLine(\"Delete clicked\");",
+        "handler(\"delete\");",
+        "delete.Click;",
+        "Console.ReadLine(\"delete\");"
+      ],
+      "correctIndex": 0,
+      "explanation": "It assigns an Action under the delete key."
+    },
+    {
+      "id": "W5-046",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "What is the purpose of the name != null test before lookup?",
+      "options": [
+        "To guarantee the user entered 0",
+        "To avoid using a null input as a dictionary key",
+        "To create a delegate",
+        "To raise an event"
+      ],
+      "correctIndex": 1,
+      "explanation": "ReadLine may return null, so the check guards lookup."
+    },
+    {
+      "id": "W5-047",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 10,
+      "question": "Which is the best match: WPF subscribing a handler vs Console demo?",
+      "options": [
+        "handler()",
+        "while(true)",
+        "handlers[\"add\"] = ...",
+        "Console.Write"
+      ],
+      "correctIndex": 2,
+      "explanation": "Storing an Action parallels registering a handler."
+    },
+    {
+      "id": "W5-048",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 12,
+      "question": "If a button emits Click but no custom handler is subscribed, which lecture-level conclusion is correct?",
+      "options": [
+        "Your absent handler still executes",
+        "No subscribed custom handler runs",
+        "The button is deleted",
+        "The UI thread always crashes"
+      ],
+      "correctIndex": 1,
+      "explanation": "No registered handler means no application-specific response from it."
+    },
+    {
+      "id": "W5-049",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 13,
+      "question": "What does the doorbell analogy emphasize about source and handler?",
+      "options": [
+        "They must be the same object",
+        "The source knows every listener’s code",
+        "They are independent",
+        "No listener can unsubscribe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Source does not need to know who handles its event."
+    },
+    {
+      "id": "W5-050",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 14,
+      "question": "Put steps in correct lecture order: (1) WPF Dispatcher, (2) Windows receives, (3) App queue, (4) Handler runs.",
+      "options": [
+        "2,3,1,4",
+        "4,2,3,1",
+        "1,2,4,3",
+        "3,4,2,1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Windows receives -> queue -> Dispatcher -> handler, with Click raised before handler."
+    },
+    {
+      "id": "W5-051",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 14,
+      "question": "The lecturer says your code appears in the second-to-last major step. Which step is that?",
+      "options": [
+        "Windows receiving input",
+        "WPF Dispatcher picks it up",
+        "Your handler runs",
+        "The click is generated by hardware"
+      ],
+      "correctIndex": 2,
+      "explanation": "Handler runs just before UI updated in the shown sequence."
+    },
+    {
+      "id": "W5-052",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 15,
+      "question": "Which matched pair correctly distinguishes time and application-defined events?",
+      "options": [
+        "Tick / OrderPlaced",
+        "Click / Loaded",
+        "TextChanged / Closing",
+        "SizeChanged / MouseMove"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tick is timer-related; OrderPlaced is user-defined."
+    },
+    {
+      "id": "W5-053",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 16,
+      "question": "Which is the correct repeating lifecycle after initialization?",
+      "options": [
+        "Wait -> event arrives -> handler -> Wait",
+        "Handler -> app always exits",
+        "Event -> initialize UI again every time",
+        "Close -> subscribe -> start"
+      ],
+      "correctIndex": 0,
+      "explanation": "Handlers return control to the wait loop."
+    },
+    {
+      "id": "W5-054",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 17,
+      "question": "Which login event-handler combination is correctly matched to the lecture?",
+      "options": [
+        "Closing -> Load saved settings",
+        "Loaded -> Focus username and load settings",
+        "TextChanged -> Always close the window",
+        "Click -> Start download timer only"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Loaded handler prepares the login form."
+    },
+    {
+      "id": "W5-055",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 17,
+      "question": "A login form has unsaved content and the user tries to exit. Which event is most relevant?",
+      "options": [
+        "Closing",
+        "KeyDown",
+        "Tick",
+        "SelectionChanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Closing is used to ask for confirmation."
+    },
+    {
+      "id": "W5-056",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 18,
+      "question": "What is wrong with a handler that performs a long blocking calculation on the UI thread?",
+      "options": [
+        "It forces all input to integers",
+        "It may freeze the window until complete",
+        "It cannot be a C# method",
+        "It automatically raises Loaded"
+      ],
+      "correctIndex": 1,
+      "explanation": "UI-thread blocking delays event processing."
+    },
+    {
+      "id": "W5-057",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 18,
+      "question": "Which technique follows BOTH “one handler, one job” and “do not copy-paste”?",
+      "options": [
+        "Duplicate long code in all buttons",
+        "Put shared logic into helper methods",
+        "Do not validate text",
+        "Call Main recursively"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extract shared behavior and keep handlers focused."
+    },
+    {
+      "id": "W5-058",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 18,
+      "question": "An app assumes Delete can only be clicked after Add. Which rule warns against this assumption?",
+      "options": [
+        "Do not rely on order of unrelated events",
+        "Only use Console output",
+        "Never use TryParse",
+        "Use one endless handler"
+      ],
+      "correctIndex": 0,
+      "explanation": "Users can invoke unrelated actions in different orders."
+    },
+    {
+      "id": "W5-059",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 18,
+      "question": "What is the preferred response to numeric text \"ABC\" in a TextBox?",
+      "options": [
+        "Assume conversion succeeds",
+        "Validate using TryParse and show appropriate response",
+        "Call handler() again indefinitely",
+        "Remove WPF Dispatcher"
+      ],
+      "correctIndex": 1,
+      "explanation": "TryParse guards invalid numeric input."
+    },
+    {
+      "id": "W5-060",
+      "week": 5,
+      "difficulty": "hard",
+      "slide": 19,
+      "question": "Which statement captures the lecture’s design question for event-driven programs?",
+      "options": [
+        "Which instruction must ALWAYS execute first?",
+        "How many times does Main loop?",
+        "What can the user do, and what should happen?",
+        "How do I eliminate all events?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Design responses around user actions."
+    },
+    {
+      "id": "W6-001",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 3,
+      "question": "In Demo 1, which control has Content=\"Click me\"?",
+      "options": [
+        "TextBlock",
+        "Button",
+        "TextBox",
+        "ComboBox"
+      ],
+      "correctIndex": 1,
+      "explanation": "The XAML creates a Button."
+    },
+    {
+      "id": "W6-002",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 3,
+      "question": "Which XAML attribute connects the Button to Hello_Click?",
+      "options": [
+        "Width",
+        "Text",
+        "Click",
+        "Margin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Click=\"Hello_Click\" subscribes the handler in XAML."
+    },
+    {
+      "id": "W6-003",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 3,
+      "question": "Which named control displays the click count?",
+      "options": [
+        "lblOut",
+        "cmbLang",
+        "txtName",
+        "btnSave"
+      ],
+      "correctIndex": 0,
+      "explanation": "The TextBlock named lblOut receives the text."
+    },
+    {
+      "id": "W6-004",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 3,
+      "question": "What is the initial value of clicks in Demo 1?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "10"
+      ],
+      "correctIndex": 2,
+      "explanation": "The declaration is int clicks = 0."
+    },
+    {
+      "id": "W6-005",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 3,
+      "question": "What does clicks++ do?",
+      "options": [
+        "Subtracts 1",
+        "Adds 1",
+        "Resets to 0",
+        "Converts to string"
+      ],
+      "correctIndex": 1,
+      "explanation": "It increments the variable."
+    },
+    {
+      "id": "W6-006",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 4,
+      "question": "After ONE click in Demo 1, what is displayed?",
+      "options": [
+        "Clicked 0 times",
+        "Clicked 1 times",
+        "Clicked 3 times",
+        "No handler registered"
+      ],
+      "correctIndex": 1,
+      "explanation": "The counter goes 0 -> 1."
+    },
+    {
+      "id": "W6-007",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 5,
+      "question": "After TWO clicks in Demo 1, what is displayed?",
+      "options": [
+        "Clicked 2 times",
+        "Clicked 1 times",
+        "Saved!",
+        "Hola, Ali!"
+      ],
+      "correctIndex": 0,
+      "explanation": "The counter reaches 2."
+    },
+    {
+      "id": "W6-008",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 6,
+      "question": "After THREE clicks in Demo 1, what is displayed?",
+      "options": [
+        "Clicked 0 times",
+        "Clicked 2 times",
+        "Clicked 3 times",
+        "Nothing"
+      ],
+      "correctIndex": 2,
+      "explanation": "The counter reaches 3."
+    },
+    {
+      "id": "W6-009",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 7,
+      "question": "What is the C# equivalent of Click=\"BtnSave_Click\"?",
+      "options": [
+        "btnSave.Click += BtnSave_Click;",
+        "btnSave.Text = Click;",
+        "BtnSave_Click = btnSave;",
+        "btnSave.Click();"
+      ],
+      "correctIndex": 0,
+      "explanation": "The C# += syntax registers the same method."
+    },
+    {
+      "id": "W6-010",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 7,
+      "question": "What does the sample save handler show?",
+      "options": [
+        "Hello Ali",
+        "Saved!",
+        "Clicked 3 times",
+        "No handler registered"
+      ],
+      "correctIndex": 1,
+      "explanation": "MessageBox.Show displays Saved!."
+    },
+    {
+      "id": "W6-011",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "What is a delegate?",
+      "options": [
+        "A reference to a method with a compatible signature",
+        "A special window color",
+        "A database field",
+        "A XAML layout panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "A delegate is a type-safe method reference."
+    },
+    {
+      "id": "W6-012",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "Which built-in delegate type returns nothing (void)?",
+      "options": [
+        "Func",
+        "Action",
+        "string",
+        "int"
+      ],
+      "correctIndex": 1,
+      "explanation": "Action delegates return void."
+    },
+    {
+      "id": "W6-013",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "Which built-in delegate type returns a value?",
+      "options": [
+        "Action",
+        "Button",
+        "Func",
+        "TextBlock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Func has a return-value type parameter."
+    },
+    {
+      "id": "W6-014",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 8,
+      "question": "What ready-made delegate is specifically associated with events?",
+      "options": [
+        "EventHandler",
+        "Console",
+        "StackPanel",
+        "Window"
+      ],
+      "correctIndex": 0,
+      "explanation": "EventHandler is provided for event signatures."
+    },
+    {
+      "id": "W6-015",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 9,
+      "question": "Which control allows choosing English or Spanish?",
+      "options": [
+        "TextBlock",
+        "ComboBox",
+        "Button only",
+        "MessageBox"
+      ],
+      "correctIndex": 1,
+      "explanation": "cmbLang is the ComboBox."
+    },
+    {
+      "id": "W6-016",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 9,
+      "question": "What is the initial delegate target in Demo 2a?",
+      "options": [
+        "Spanish",
+        "Lang_Changed",
+        "English",
+        "Greet_Click"
+      ],
+      "correctIndex": 2,
+      "explanation": "greeter is initialized to English."
+    },
+    {
+      "id": "W6-017",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 10,
+      "question": "Which greeting appears for Ali when English is selected and Greet is pressed?",
+      "options": [
+        "Hola, Ali!",
+        "Hello, Ali!",
+        "Saved!",
+        "Clicked 1 times"
+      ],
+      "correctIndex": 1,
+      "explanation": "English formats Hello, Ali!."
+    },
+    {
+      "id": "W6-018",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 13,
+      "question": "Which greeting appears for Ali after choosing Spanish and pressing Greet?",
+      "options": [
+        "Hello, Ali!",
+        "Clicked 3 times",
+        "Hola, Ali!",
+        "No handler registered"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spanish formats Hola, Ali!."
+    },
+    {
+      "id": "W6-019",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 14,
+      "question": "Which operator ADDS a subscriber to an event?",
+      "options": [
+        "-=",
+        "==",
+        "++",
+        "+="
+      ],
+      "correctIndex": 3,
+      "explanation": "+= subscribes a handler."
+    },
+    {
+      "id": "W6-020",
+      "week": 6,
+      "difficulty": "easy",
+      "slide": 15,
+      "question": "What does sender refer to in the standard handler signature?",
+      "options": [
+        "The object that raised the event",
+        "A return value",
+        "An integer count",
+        "The method name"
+      ],
+      "correctIndex": 0,
+      "explanation": "sender identifies the event source."
+    },
+    {
+      "id": "W6-021",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 3,
+      "question": "In <TextBlock x:Name=\"lblOut\" />, what is x:Name used for?",
+      "options": [
+        "A number of clicks",
+        "Naming the control so code can refer to it",
+        "Choosing Spanish",
+        "Raising Click automatically"
+      ],
+      "correctIndex": 1,
+      "explanation": "Code uses lblOut.Text to update the named TextBlock."
+    },
+    {
+      "id": "W6-022",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 3,
+      "question": "What is the purpose of Margin=\"15\" on StackPanel?",
+      "options": [
+        "Set spacing around its content area",
+        "Name the handler",
+        "Set the click count",
+        "Switch language"
+      ],
+      "correctIndex": 0,
+      "explanation": "Margin controls external spacing for the panel."
+    },
+    {
+      "id": "W6-023",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 3,
+      "question": "Immediately after opening Demo 1, before any clicks, what runs?",
+      "options": [
+        "Hello_Click executes once",
+        "clicks++ executes",
+        "No click handler has run yet",
+        "lblOut shows Clicked 1 times"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lecture explicitly says nothing runs yet."
+    },
+    {
+      "id": "W6-024",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 4,
+      "question": "Which line updates the on-screen result after each click?",
+      "options": [
+        "int clicks = 0;",
+        "lblOut.Text = $\"Clicked {clicks} times\";",
+        "Click=\"Hello_Click\"",
+        "<StackPanel Margin=\"15\">"
+      ],
+      "correctIndex": 1,
+      "explanation": "The TextBlock Text property is set inside handler."
+    },
+    {
+      "id": "W6-025",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 7,
+      "question": "Why should you NOT register the same handler in both XAML and C#?",
+      "options": [
+        "It prevents compilation in every case",
+        "The handler can execute twice per click",
+        "It converts Click to KeyDown",
+        "It disables the button"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duplicate subscription causes duplicate invocations."
+    },
+    {
+      "id": "W6-026",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 8,
+      "question": "What does Action<string> show = SayHello; store?",
+      "options": [
+        "The output of SayHello(\"Ali\")",
+        "A compatible method reference",
+        "A ComboBox selection",
+        "A literal int"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assigning method name stores method reference."
+    },
+    {
+      "id": "W6-027",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 8,
+      "question": "What does show(\"Ali\") do?",
+      "options": [
+        "Invokes the referenced method with \"Ali\"",
+        "Sets show equal to a string",
+        "Declares a new event",
+        "Removes a subscriber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The delegate is invoked with the argument."
+    },
+    {
+      "id": "W6-028",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 8,
+      "question": "What does \"type-safe\" mean for delegates in this context?",
+      "options": [
+        "Any method can be assigned regardless of signature",
+        "Only compatible method signatures can be assigned",
+        "Methods must be declared in XAML",
+        "Delegates cannot receive parameters"
+      ],
+      "correctIndex": 1,
+      "explanation": "The delegate’s required parameter and return types must match."
+    },
+    {
+      "id": "W6-029",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 8,
+      "question": "What happens if a multicast delegate stores several methods and is invoked?",
+      "options": [
+        "Only last method runs",
+        "No methods run",
+        "All stored methods are invoked in order",
+        "WPF closes"
+      ],
+      "correctIndex": 2,
+      "explanation": "The lecture specifies calling all methods in order."
+    },
+    {
+      "id": "W6-030",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "What is the type of greeter in Demo 2?",
+      "options": [
+        "Action<string>",
+        "Func<string, string>",
+        "EventHandler",
+        "int"
+      ],
+      "correctIndex": 1,
+      "explanation": "The delegate accepts a string and returns a string."
+    },
+    {
+      "id": "W6-031",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "What does cmbLang.SelectedIndex == 1 select?",
+      "options": [
+        "English",
+        "Spanish",
+        "No selection",
+        "A new button"
+      ],
+      "correctIndex": 1,
+      "explanation": "Index 1 is Spanish in the shown list."
+    },
+    {
+      "id": "W6-032",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "In greeter = condition ? Spanish : English, what is ? : called?",
+      "options": [
+        "An event declaration",
+        "A ternary conditional expression",
+        "A loop",
+        "A namespace operator"
+      ],
+      "correctIndex": 1,
+      "explanation": "The conditional operator chooses one of two methods."
+    },
+    {
+      "id": "W6-033",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 9,
+      "question": "What does Greet_Click actually call to obtain the greeting?",
+      "options": [
+        "cmbLang.Click()",
+        "MessageBox.Show directly",
+        "greeter(txtName.Text)",
+        "clicks++"
+      ],
+      "correctIndex": 2,
+      "explanation": "The handler invokes the currently selected delegate."
+    },
+    {
+      "id": "W6-034",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 10,
+      "question": "After typing Ali but BEFORE pressing Greet in the initial English state, the output is:",
+      "options": [
+        "Hello, Ali!",
+        "Hola, Ali!",
+        "Not yet displayed",
+        "Saved!"
+      ],
+      "correctIndex": 2,
+      "explanation": "Text appears only when greeting action is invoked."
+    },
+    {
+      "id": "W6-035",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 12,
+      "question": "After changing the language from English to Spanish WITHOUT pressing Greet again, what happens to the existing label?",
+      "options": [
+        "It immediately changes to Hola, Ali!",
+        "It stays Hello, Ali! until Greet is pressed",
+        "It becomes empty automatically",
+        "A dialog pops up"
+      ],
+      "correctIndex": 1,
+      "explanation": "Only the delegate target changes at selection time."
+    },
+    {
+      "id": "W6-036",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 14,
+      "question": "In the publisher/subscriber model, who DECIDES when to raise an event?",
+      "options": [
+        "Subscriber",
+        "Publisher",
+        "Any unrelated object",
+        "The return type"
+      ],
+      "correctIndex": 1,
+      "explanation": "Event source owns the decision to raise its event."
+    },
+    {
+      "id": "W6-037",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 14,
+      "question": "Which operator unsubscribes a handler?",
+      "options": [
+        "+=",
+        "*=",
+        "-=",
+        "=="
+      ],
+      "correctIndex": 2,
+      "explanation": "-= removes subscription."
+    },
+    {
+      "id": "W6-038",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 14,
+      "question": "According to the event keyword safety rule, outside code can typically:",
+      "options": [
+        "Raise the event directly",
+        "Use += and -= to subscribe/unsubscribe",
+        "Assign the event to null freely",
+        "Change all listeners arbitrarily"
+      ],
+      "correctIndex": 1,
+      "explanation": "External code is limited to add/remove handlers."
+    },
+    {
+      "id": "W6-039",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 15,
+      "question": "Which standard handler signature is shown on the lecture slide?",
+      "options": [
+        "int Handler(string s)",
+        "void Handler(object sender, EventArgs e)",
+        "string Handler(int x)",
+        "void Handler()"
+      ],
+      "correctIndex": 1,
+      "explanation": "This is the standard EventHandler signature."
+    },
+    {
+      "id": "W6-040",
+      "week": 6,
+      "difficulty": "medium",
+      "slide": 15,
+      "question": "Why does the standard event handler return void?",
+      "options": [
+        "The source does not expect a return value",
+        "Every handler must return true",
+        "It is a constructor",
+        "No code can run inside it"
+      ],
+      "correctIndex": 0,
+      "explanation": "The event source does not expect an answer."
+    },
+    {
+      "id": "W6-041",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 3,
+      "question": "Starting with clicks = 0, what will lblOut.Text be after five clicks?",
+      "options": [
+        "Clicked 4 times",
+        "Clicked 5 times",
+        "Clicked 6 times",
+        "Nothing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Five handler executions increment from 0 to 5."
+    },
+    {
+      "id": "W6-042",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 7,
+      "question": "Suppose Hello_Click is accidentally subscribed twice and clicks starts at 0. What is clicks after ONE physical click?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "The project must fail to compile"
+      ],
+      "correctIndex": 2,
+      "explanation": "Both subscriptions invoke the handler, incrementing twice."
+    },
+    {
+      "id": "W6-043",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 7,
+      "question": "Which pair produces the duplicate-registration warning in the lecture?",
+      "options": [
+        "Content and Margin",
+        "Click=\"BtnSave_Click\" and btnSave.Click += BtnSave_Click;",
+        "TextBox and TextBlock",
+        "Action and Func declaration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both register the same method for the same event."
+    },
+    {
+      "id": "W6-044",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 8,
+      "question": "Which declaration is compatible with static void SayHello(string name)?",
+      "options": [
+        "Func<string,string> f = SayHello;",
+        "Action<string> a = SayHello;",
+        "Action<int> a = SayHello;",
+        "Func<int> f = SayHello;"
+      ],
+      "correctIndex": 1,
+      "explanation": "SayHello takes string and returns void."
+    },
+    {
+      "id": "W6-045",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 8,
+      "question": "If a method returns string from a string argument, which delegate shape best fits?",
+      "options": [
+        "Action<string>",
+        "Func<string, string>",
+        "EventHandler",
+        "Action"
+      ],
+      "correctIndex": 1,
+      "explanation": "Func<string,string> means string input and string output."
+    },
+    {
+      "id": "W6-046",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 8,
+      "question": "Which statement is INCORRECT about delegates in these slides?",
+      "options": [
+        "A delegate can be stored in a variable",
+        "A delegate can be called later",
+        "A delegate can reference multiple compatible methods",
+        "A delegate always returns void"
+      ],
+      "correctIndex": 3,
+      "explanation": "Func can return values; delegates are not all void."
+    },
+    {
+      "id": "W6-047",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 8,
+      "question": "An Action<string> delegate is assigned a method that requires TWO int parameters. What is the issue?",
+      "options": [
+        "No issue, it automatically converts",
+        "The method signature is incompatible",
+        "The event loop will fix it",
+        "Action has no parameters ever"
+      ],
+      "correctIndex": 1,
+      "explanation": "Parameter number/types must be compatible."
+    },
+    {
+      "id": "W6-048",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "In the Demo 2 ComboBox, index 0 maps to which method?",
+      "options": [
+        "Spanish",
+        "Greet_Click",
+        "English",
+        "Lang_Changed"
+      ],
+      "correctIndex": 2,
+      "explanation": "The conditional selects English unless SelectedIndex is 1."
+    },
+    {
+      "id": "W6-049",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "If the selection becomes index 1, what is stored in greeter?",
+      "options": [
+        "The output string Hola, Ali!",
+        "A reference to Spanish",
+        "A Button object",
+        "A new event"
+      ],
+      "correctIndex": 1,
+      "explanation": "The selected method reference replaces English."
+    },
+    {
+      "id": "W6-050",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 9,
+      "question": "Which expression invokes the current greeting method using text from txtName?",
+      "options": [
+        "greeter(txtName.Text)",
+        "English = greeter",
+        "txtName.Click",
+        "cmbLang.SelectedIndex++"
+      ],
+      "correctIndex": 0,
+      "explanation": "The delegate is called with the input text."
+    },
+    {
+      "id": "W6-051",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 10,
+      "question": "Sequence: enter Ali, press Greet, switch to Spanish, do NOT press Greet. What is lblOut.Text?",
+      "options": [
+        "Hola, Ali!",
+        "Hello, Ali!",
+        "Nothing",
+        "Clicked 1 times"
+      ],
+      "correctIndex": 1,
+      "explanation": "Switching changes the method pointer, not the existing display."
+    },
+    {
+      "id": "W6-052",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 13,
+      "question": "Sequence: enter Ali, press Greet (English), switch to Spanish, press Greet. What is final output?",
+      "options": [
+        "Hello, Ali!",
+        "Hello, Ali!Hola, Ali!",
+        "Hola, Ali!",
+        "Saved!"
+      ],
+      "correctIndex": 2,
+      "explanation": "The second click invokes Spanish and replaces TextBlock text."
+    },
+    {
+      "id": "W6-053",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 10,
+      "question": "What remains unchanged when ComboBox language changes in Demo 2?",
+      "options": [
+        "The method stored by greeter",
+        "The button and Greet_Click handler code",
+        "The selected index",
+        "The next greeting language"
+      ],
+      "correctIndex": 1,
+      "explanation": "The handler is stable while delegate target changes."
+    },
+    {
+      "id": "W6-054",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 14,
+      "question": "Which statement is the key distinction between an event and a plain delegate in the lecture?",
+      "options": [
+        "Events can be invoked by any external code",
+        "Events add ownership/safety rules on raising",
+        "Plain delegates cannot refer to methods",
+        "Events do not support +="
+      ],
+      "correctIndex": 1,
+      "explanation": "Only the event-owning class may raise its event."
+    },
+    {
+      "id": "W6-055",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 14,
+      "question": "Which action is permitted to an external subscriber for an event?",
+      "options": [
+        "Raise it directly",
+        "Subscribe via +=",
+        "Assign a new event invocation list",
+        "Invoke it like a method"
+      ],
+      "correctIndex": 1,
+      "explanation": "Outside code can subscribe and unsubscribe."
+    },
+    {
+      "id": "W6-056",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 14,
+      "question": "In publisher/subscriber terminology, the button in Demo 1 is the:",
+      "options": [
+        "Subscriber",
+        "Publisher",
+        "Event data",
+        "Return type"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Button raises Click; Hello_Click is subscriber handler."
+    },
+    {
+      "id": "W6-057",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 15,
+      "question": "In void Handler(object sender, EventArgs e), EventArgs e provides:",
+      "options": [
+        "Always a numeric return code",
+        "Event information; specialized types may add data",
+        "The Button Content property only",
+        "A delegate variable to assign"
+      ],
+      "correctIndex": 1,
+      "explanation": "EventArgs is base data, specialized event args add details."
+    },
+    {
+      "id": "W6-058",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 15,
+      "question": "For a WPF Click handler, which second argument type does the demonstrated code use?",
+      "options": [
+        "int",
+        "RoutedEventArgs",
+        "string",
+        "Func<string,string>"
+      ],
+      "correctIndex": 1,
+      "explanation": "Demo 1 uses RoutedEventArgs for Click."
+    },
+    {
+      "id": "W6-059",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 15,
+      "question": "For a ComboBox SelectionChanged handler, which argument type is used in Demo 2?",
+      "options": [
+        "RoutedEventArgs only",
+        "SelectionChangedEventArgs",
+        "EventHandler as parameter",
+        "int[]"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Demo 2 selection handler uses SelectionChangedEventArgs."
+    },
+    {
+      "id": "W6-060",
+      "week": 6,
+      "difficulty": "hard",
+      "slide": 14,
+      "question": "Which statement best captures the Publisher/Subscriber separation?",
+      "options": [
+        "The publisher must know all handlers’ implementations",
+        "The publisher raises the event without needing to know who listens",
+        "Subscribers decide when publisher code executes",
+        "Every subscriber must return a string"
+      ],
+      "correctIndex": 1,
+      "explanation": "The publisher need not know its listeners."
+    }
+  ]
+}
